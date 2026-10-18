@@ -3,13 +3,21 @@
 Development builds of Luma for Apple Silicon Macs running macOS 26 or later.
 The package token is `luma` and the installed application is `Luma.app`.
 
-The prepared cask pins the published 0.2.0 installer. It predates current work
+The cask pins the published 0.2.0 installer. It predates current work
 on the main branch. It is ad-hoc signed and not notarized. Homebrew preserves
 quarantine; Gatekeeper rejected this build in the recorded macOS 27.0.1 test.
 This tap does not change macOS security settings or promise first-launch access.
 
-Public installation instructions will be added after the repository exists and
-the public tap installation route has been verified.
+Install the development build:
+
+```sh
+brew install --cask felixlheureux/luma/luma
+```
+
+Verified from this public GitHub tap with Homebrew 7.0.9 on Apple Silicon/macOS
+27.0.1. The fully qualified command trusts this cask only; no whole-tap trust is
+needed. Installation succeeds, but successful first launch is not established
+for this unnotarized release. See [Homebrew tap trust](https://docs.brew.sh/Tap-Trust).
 
 Cask validation uses Homebrew style and online audit. The exact prerelease is
 listed in `audit_exceptions/github_prerelease_allowlist.json`; this declares the
