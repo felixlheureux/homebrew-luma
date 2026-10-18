@@ -4,7 +4,7 @@ cask "luma" do
 
   url "https://github.com/felixlheureux/luma/releases/download/v#{version}/Luma-#{version}-arm64.dmg"
   name "Luma"
-  desc "Local-first Mac storage review and maintenance"
+  desc "Local-first storage review and maintenance"
   homepage "https://github.com/felixlheureux/luma"
 
   livecheck do
