@@ -3,9 +3,11 @@
 Development builds of Luma for Apple Silicon Macs running macOS 26 or later.
 The package token is `luma` and the installed application is `Luma.app`.
 
-The cask pins the published 0.2.1 installer, including direct cleanup/Undo,
-requested Storage discovery, Overview and the menu companion, M2 battery
-reporting, and explicit Maintenance cache/local-Trash/memory actions.
+The cask pins the published 0.2.3 installer, including packed Storage circles
+with focus/folder navigation and a full-width browser, consistent purple residue
+group checks, restored declared local app icons, a compact battery row and a
+1200 × 850 main window on every opening. Direct cleanup/Undo, requested Storage
+discovery, Overview/menu and explicit Maintenance actions remain included.
 It is ad-hoc signed and not notarized. Homebrew preserves quarantine; this tap
 does not change macOS security settings or promise first-launch access.
 
